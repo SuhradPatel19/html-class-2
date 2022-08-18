@@ -1,33 +1,56 @@
-
-
-
-a:visited{
-    color:rgb(2, 1, 2)
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
-a:link{
-    color:blueviolet
+a {
+  display: flex;
+  justify-content: flex-start;
 }
 
-.item:hover img{
-    opacity: 0.33;
-
+a:active {
+  background: antiquewhite;
+  color: white;
 }
 
-body{
-    background-color: lightblue;
-
-}
-#header{
-    font-size:50px;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    margin: 5px;
-    /* padding-right: 50px */
-
-    
+a:visited {
+  color: rgb(2, 1, 2);
 }
 
-#header h1{
-    border:dotted 5px white
+a:link {
+  color: blueviolet;
+}
+
+a:hover {
+  color: orange;
+  transform: scale(1.01);
+}
+.item:hover img {
+  opacity: 0.33;
+}
+.item {
+  margin: 100px;
+  border-width: 20px;
+  border-color: aquamarine;
+  display: flex;
+}
+
+body {
+  background-color: white;
+}
+#header {
+  font-size: 50px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  margin: 5px;
+}
+
+.links {
+  font-size: x-large;
+  margin-right: 300px;
+}
+
+.aboutMe {
+  width: 500px;
 }
